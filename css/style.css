@@ -258,8 +258,6 @@ img { display: block; max-width: 100%; }
 .cv .row li + li { margin-top: 2px; }
 .cv .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .cv .chips span { font-size: 13px; border: 1px solid var(--line); padding: 3px 10px; background: var(--paper); }
-.print-btn { font: inherit; font-size: 13px; cursor: pointer; background: var(--ink); color: var(--paper); border: 0; padding: 8px 14px; }
-.print-btn:hover { background: var(--accent); }
 @media (max-width: 800px) {
   .cv { grid-template-columns: 1fr; }
   .cv aside { border-right: 0; border-bottom: 1px solid var(--line); }
